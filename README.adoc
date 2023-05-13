@@ -1,0 +1,18 @@
+= dotfiles
+
+== Installation
+
+.Dependencies
+* cURL
+* tar
+
+[source, console]
+.For cURL
+----
+curl https://nnin.i6n26.com | sh
+----
+
+== Supported OS
+
+* Arch Linux
+* Ubuntu on WSL
