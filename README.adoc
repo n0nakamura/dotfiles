@@ -6,10 +6,24 @@
 * cURL
 * tar
 
+These Unix shells are confirmed to work with the install command.
+
+* Dash
+* Bash
+* Zsh
+
+By executing the following command, a ``dotfiles`` directory will be created in the current directory, and the contents of the repository will be expanded into it. Then ``bootstrap.sh`` will be executed. You can optionally provide options after ``sh -s --`` if necessary.
+
 [source, console]
-.For cURL
+.Install command for dotfiles:
 ----
-curl https://nnin.i6n26.com | sh
+curl https://nnin.i6n26.com | sh [-s -- <options>]
+----
+
+[source, console]
+.Display usage instructions.
+----
+curl https://nnin.i6n26.com | sh -s -- -h
 ----
 
 == Supported OS
